@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800&display=swap");
+
+
+html, body {
+    overflow: hidden; /* إلغاء خاصية overflow */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"Tajawal" ;
+    list-style: none;
+}
+.container {
+    background-image: url(image/g.png);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+  
+  
+  
+.backleft {
+    background-color: #0d0d0f;
+    width: 15%;
+    padding: 100px;
+    border-radius: 5px;
+    margin-left: 250px;
+    content: '';
+    position: relative;
+    bottom: -150px;
+}
+
+
+.backleft h3 {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: -50px;
+    padding: 20px;
+    content: '';
+    position: relative;
+    right: -85%;
+}
+
+.backleft h2 {
+    color: white;
+    font-size: 10px;
+    bottom: -2px;
+    content: '';
+    position: relative;
+    right: -85%;
+    font-weight: 300;
+
+
+
+
+}
+
+.backleft .ask1 h2,.ask2 h2,.ask3 h2,.ask4 h2 {
+    content: '';
+    position: relative;
+    right: -90%;
+
+}
+
+
+.backleft input {
+    background-color: #0d0d0f;
+    border: none;
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.096);
+    padding-bottom: 0; 
+    content: '';
+    position: relative;
+    right: 5%;
+    color: white;
+    width: 150%;
+
+
+}
+
+.backleft input:focus {
+    outline: none;
+}
+
+.backleft button {
+    width: 150%;
+    padding: 5px;
+    content: '';
+    position: relative;
+    bottom: -15px;
+    border: 1px solid #0d0d0f;
+    border-radius: 5px;
+    color: white;
+    background-color: #925FE2;
+    content: '';
+    position: relative;
+    right: 5%;
+
+    
+}
+
+
+
+.backright img { 
+    width: 28.9%;
+    margin-left: 50%;
+    margin-top: -25%;
+    border-radius: 5px;
+    
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .backleft {
+        background-color: #0d0d0f;
+        width: 15%;
+        padding: 100px;
+        border-radius: 5px;
+        margin-left: 50px;
+        content: '';
+        position: relative;
+        bottom: -175px;
+    }
+    
+    
+    .backleft h3 {
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+        margin-top: -50px;
+        padding: 20px;
+        content: '';
+        position: relative;
+        right: -50%;
+        display: inline-block;
+    }
+    
+    .backleft h2 {
+        color: white;
+        font-size: 10px;
+        bottom: -2px;
+        content: '';
+        position: relative;
+        right: -165%;
+        font-weight: 300;
+    
+    
+    
+    
+    }
+    
+    .backleft .ask1 h2,.ask2 h2,.ask3 h2,.ask4 h2 {
+        content: '';
+        position: relative;
+        right: -165%;
+    
+    }
+    
+    
+    .backleft input {
+        background-color: #0d0d0f;
+        border: none;
+        margin-bottom: 5px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.096);
+        padding-bottom: 0; 
+        content: '';
+        position: relative;
+        right: -115%;
+        color: white;
+        width: 150%;
+    
+    
+    }
+    
+    .backleft input:focus {
+        outline: none;
+    }
+    
+    .backleft button {
+        width: 300%;
+        padding: 5px;
+        content: '';
+        position: relative;
+        bottom: -15px;
+        border: 1px solid #0d0d0f;
+        border-radius: 5px;
+        color: white;
+        background-color: #925FE2;
+        content: '';
+        position: relative;
+        right: 80%;
+    
+        
+    }
+    
+    
+    
+    .backright img { 
+        height: 200px;
+        width: 70%;
+        content: '';
+        position: relative;
+        top: -450px;
+        margin-left: 50px;
+        border-radius: 5px;
+        
+    
+    }
+}
